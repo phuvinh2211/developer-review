@@ -26,10 +26,14 @@ Your task is to build a simple Flask + Vue app that communicates with Twitter AP
 
 ## How to run
 
+Add Bearer Token of your Twitter API Developer at .env File
+
 Build the docker image and start server:
 
 ```
 docker build -t cubicasa-developer-test .
 docker-compose up web
 ```
+
+Type your Twitter ID and click "Get Tweets" button.
 
